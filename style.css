@@ -1,0 +1,56 @@
+body {
+    background-color: #CFD8DC;
+}
+
+#container {
+    width: 100%;
+    text-align: center;
+    
+}
+
+.timer {
+    width: 700px;
+    margin-left: 280px;
+    margin-top: 150px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 30px;
+}
+
+.digit {
+    width: 150px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    font-size: 80px;
+    color: red;
+}
+
+.text {
+    font-size: 40px;
+    font-weight: 600;
+    padding-right:30px;
+    padding-top: 45px;
+}
+
+.btn {
+    padding: 8px 22px 8px 22px;
+    margin-right: 12px;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
+#start-btn {
+    background-color: #4CAF50;
+}
+
+#stop-btn {
+    background-color: #F44336;
+}
+
+#reset-btn {
+    background-color: #2196F3;
+}
